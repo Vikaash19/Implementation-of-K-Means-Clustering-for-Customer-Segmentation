@@ -21,7 +21,7 @@ RegisterNumber: 212223240179
 
 import pandas as pd
 import matplotlib.pyplot as plt
-data = pd.read_csv("/content/Mall_Customers (1) (1).csv")
+data = pd.read_csv("/content/Mall_Customers.csv")
 data.head()
 data.info()
 data.isnull().sum()
