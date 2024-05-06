@@ -8,17 +8,17 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import pandas and matplotlib.pyplot
-2. Read the dataset and transform it
-3. Import KMeans and fit the data in the model
-4. Plot the Cluster graph
-
+step-1:start.
+<br>step-2:Import pandas and matplotlib.pyplot
+<br>step-3:Read the dataset and transform it
+<br>step-4:Import KMeans and fit the data in the model
+<br>step-5:Plot the Cluster graph
+<br>step-6:stop.
 ## Program:
 ```
 Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: Vikaash K S
 RegisterNumber: 212223240179
-
 import pandas as pd
 import matplotlib.pyplot as plt
 data = pd.read_csv("/content/Mall_Customers.csv")
@@ -26,6 +26,8 @@ data.head()
 data.info()
 data.isnull().sum()
 from sklearn.cluster import KMeans
+```
+```
 wcss = []  #Within-Cluster sum of square. 
 for i in range(1,11):
   kmeans=KMeans(n_clusters = i,init = "k-means++")
