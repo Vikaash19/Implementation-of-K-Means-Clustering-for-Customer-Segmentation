@@ -54,10 +54,7 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="green",la
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",label="cluster4")
 plt.legend()
 plt.title("Customer Segments")
-
-
 ```
-
 ## Output:
 #### data.head() function
 ![Screenshot 2023-06-03 174421](https://github.com/Yamunaasri/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/115707860/4ddf5cc1-60a4-4f52-9101-d0c664fef559)
