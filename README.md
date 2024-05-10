@@ -78,7 +78,7 @@ plt.title("Customer Segments")
 
 ![exp 8 kmean cluster](https://github.com/23003250/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/139331462/0df0da99-3abd-4cdf-80fb-1c4a0061cd09)
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br>
 ### Customer segments Graph
 ![exp 8 custom segment graph](https://github.com/23003250/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/139331462/9965fb26-21e7-4fb0-8be3-3d579c763b86)
 
